@@ -1,0 +1,40 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  h1, h2, h3, p {
+    font-family: 'Roboto', sans-serif;
+  }
+.product-page-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .product-details {
+    margin-bottom: 10px;
+  }
+  
+  .product-details p {
+    margin: 5px 0;
+  }
+  
+
+  .stylish-button {
+    background-color: #4CAF50; 
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .stylish-button:hover {
+    background-color: #45a049; 
+  }
+  

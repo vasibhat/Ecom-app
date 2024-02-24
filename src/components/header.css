@@ -1,0 +1,60 @@
+/* Basic header styling */
+header {
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between; /* Distribute items along the main axis */
+    align-items: center; /* Center vertically */
+  }
+  
+  ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0; /* Remove default margin/padding */
+  }
+  
+  nav ul li a {
+    font-size: 1.8rem; /* Decrease font size for better responsiveness */
+  }  
+  li {
+    margin: 0 10px; /* Add horizontal spacing */
+  }
+  
+  /* Move the cart to the right */
+  .cart {
+    margin-left: auto; /* Push the cart to the right */
+  }
+  
+  /* Link styles */
+  a {
+    color: #333; /* Dark gray text */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make links stand out */
+    transition: color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  a:hover {
+    color: #007bff; /* Blue hover color */
+  }
+  
+  /* Optional: Add a logo or image */
+  .logo {
+    height: 50px; /* Adjust height as needed */
+    margin-right: 20px; /* Space between logo and links */
+  }
+  
+  /* Optional: Responsive layout using media queries */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column; /* Stack links vertically on smaller screens */
+      align-items: flex-start; /* Align links to left */
+    }
+    li {
+      margin: 5px 0; /* Adjust spacing for smaller screens */
+    }
+  }
+  
