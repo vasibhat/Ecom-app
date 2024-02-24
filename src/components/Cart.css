@@ -1,11 +1,13 @@
 
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 .empty-cart-message {
     font-family: 'Roboto', sans-serif;
-    
+    text-align: center;
+  
 }
 
 h1, h2, h3, p {
@@ -34,6 +36,11 @@ p {
 
 .cart-item p {
     margin: 5px 0;
+}
+
+.cart-item img {
+    max-width: 100px; 
+    border-radius: 5px; 
 }
 
 .remove-button {

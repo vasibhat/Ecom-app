@@ -37,4 +37,10 @@ body {
   .stylish-button:hover {
     background-color: #45a049; 
   }
-  
+  .product-image {
+    width: 100%;
+    max-width: 200px; /* Adjust the max-width as needed */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

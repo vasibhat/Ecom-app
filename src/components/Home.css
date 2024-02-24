@@ -69,3 +69,52 @@ h1, h2, h3, p {
 .product-item a:hover {
     background-color: #0056b3;
 }
+/* Existing CSS code */
+
+/* Add to Cart button styles */
+.product-item button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%; /* Ensure button takes full width */
+}
+
+.product-item button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 992px) {
+    .product-item {
+        width: calc(33.33% - 20px);
+    }
+
+    .product-item button {
+        width: auto; /* Allow button to adjust width based on content */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .product-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .product-item {
+        width: calc(100% - 20px);
+    }
+}
+.product-item img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure images are block-level elements */
+    margin-bottom: 10px; /* Add spacing between image and other content */
+    border-radius: 5px;
+}h2 {
+  text-align: center; /* Center align the h2 element */
+}
