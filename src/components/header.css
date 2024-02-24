@@ -1,60 +1,58 @@
-/* Basic header styling */
+
 header {
-    background-color: #f5f5f5; /* Light gray background */
+    background-color: #f5f5f5; 
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   }
   
   nav {
     display: flex;
-    justify-content: space-between; /* Distribute items along the main axis */
-    align-items: center; /* Center vertically */
+    justify-content: space-between; 
   }
   
   ul {
-    list-style: none; /* Remove default bullet points */
+    list-style: none; 
     padding: 0;
-    margin: 0; /* Remove default margin/padding */
+    margin: 0; 
   }
   
   nav ul li a {
-    font-size: 1.8rem; /* Decrease font size for better responsiveness */
+    font-size: 1.8rem; 
   }  
   li {
-    margin: 0 10px; /* Add horizontal spacing */
+    margin: 0 10px; 
   }
   
-  /* Move the cart to the right */
+ 
   .cart {
-    margin-left: auto; /* Push the cart to the right */
+    margin-left: auto; 
   }
   
-  /* Link styles */
+
   a {
-    color: #333; /* Dark gray text */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Make links stand out */
-    transition: color 0.2s ease-in-out; /* Smooth hover effect */
+    color: #333; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.2s ease-in-out; 
   }
   
   a:hover {
-    color: #007bff; /* Blue hover color */
+    color: #007bff;
   }
   
-  /* Optional: Add a logo or image */
   .logo {
-    height: 50px; /* Adjust height as needed */
-    margin-right: 20px; /* Space between logo and links */
+    height: 50px; 
+    margin-right: 20px; 
   }
   
-  /* Optional: Responsive layout using media queries */
+ 
   @media (max-width: 768px) {
     nav {
-      flex-direction: column; /* Stack links vertically on smaller screens */
-      align-items: flex-start; /* Align links to left */
+      flex-direction: column; 
+      align-items: flex-start; 
     }
     li {
-      margin: 5px 0; /* Adjust spacing for smaller screens */
+      margin: 5px 0; 
     }
   }
   
