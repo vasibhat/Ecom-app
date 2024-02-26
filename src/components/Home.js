@@ -6,9 +6,9 @@ import "./Home.css";
 
 function Home() {
   const products = [
-    { id: 1, title: "Product 1", price: 10, image: "/images/product1.jpg" },
-    { id: 2, title: "Product 2", price: 20, image: "/images/product2.jpg" },
-    { id: 3, title: "Product 3", price: 30, image: "/images/product3.jpg" },
+    { id: 1, title: "Film Roll", price: 10, image: "/images/product1.jpg" },
+    { id: 2, title: "Casio Watch", price: 20, image: "/images/product2.jpg" },
+    { id: 3, title: "Camera Lens", price: 30, image: "/images/product3.jpg" },
   ];
 
   const { addItem } = useCart(); 
